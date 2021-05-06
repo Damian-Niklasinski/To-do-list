@@ -1,0 +1,26 @@
+.list__item {
+    display: flex;
+    font-size: 20px;
+}
+
+.list__item--done {
+    color:green;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+.list__item--remove {
+    color:red;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+.list__button--done {
+    margin: 0 auto;
+}
+
+.list__button--remove {
+    margin: 0 auto;
+}
