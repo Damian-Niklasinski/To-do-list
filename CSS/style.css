@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+}
+
+.header {
+    width: 100%;
+    max-width: 1024px;
+    border: 1px solid hsl(300, 2%, 24%);
+}
+
+.header__mainHeader {
+    color: #fff;
+    width: 100%;
+    max-width: 335px;
+    padding: 10px;
+}
+
+.header__subHeader {
+    color: #fff;
+    padding: 25px;
+    margin: 0 auto;
+    border-top: 1px solid hsl(300, 2%, 24%);
+}
