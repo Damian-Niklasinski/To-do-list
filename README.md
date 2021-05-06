@@ -2,7 +2,7 @@
 
 ## Demo
 
-[To-do list](https://damian-niklasinski.github.io/Task-bar/)
+[To-do list](https://damian-niklasinski.github.io/To-do-list/)
 
 ## Description
 
