@@ -60,16 +60,23 @@
         bindEvents();
     };
 
+    const focusInput = (newTask) => {
+        newTask.value = "";
+        newTask.focus();
+    };
+
     const onFormSubmit = (event) => {
         event.preventDefault();
 
-        const newTaskContent = document.querySelector(".js-newTask").value.trim();
+        const newTaskContent = document.querySelector(".js-newTask")    
+        const newTask = newTaskContent.value.trim();
         
-        if(newTaskContent === "") {
+        if(!newTask) {
+            focusInput(newTaskContent);
             return;
         }
-
-        addNewtask(newTaskContent);
+        focusInput(newTaskContent);
+        addNewtask(newTask);
     };
 
     const init = () => {
