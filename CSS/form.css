@@ -1,7 +1,7 @@
 form {
     width: 100%;
     max-width: 1024px;
-    border: 1px solid hsl(300, 2%, 24%);
+    border: 1px solid hsl(300, 76%, 23%);
     padding: 20px;
 }
 
@@ -13,8 +13,22 @@ form {
 
 .form__button {
     color: #fff;
-    background-color: hsl(314, 91%, 20%);
+    background-color: hsl(300, 76%, 23%);
     border: none;
     margin-left: 25px;
     padding: 15px;
+}
+
+section {
+    width: 100%;
+    max-width: 1024px;
+    border: 1px solid hsl(300, 76%, 23%);
+}
+
+.section__header {
+    color: #fff;
+    width: 100%;
+    max-width: 335px;
+    padding: 10px;
+    margin-left: 15px;
 }

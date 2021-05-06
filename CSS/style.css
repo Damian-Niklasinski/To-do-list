@@ -22,7 +22,7 @@ body {
 .header {
     width: 100%;
     max-width: 1024px;
-    border: 1px solid hsl(300, 2%, 24%);
+    border: 1px solid hsl(300, 76%, 23%);
 }
 
 .header__mainHeader {
@@ -36,5 +36,5 @@ body {
     color: #fff;
     padding: 25px;
     margin: 0 auto;
-    border-top: 1px solid hsl(300, 2%, 24%);
+    border-top: 1px solid hsl(300, 76%, 23%);
 }
