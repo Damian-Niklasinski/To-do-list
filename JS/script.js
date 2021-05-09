@@ -20,6 +20,7 @@
         tasks[taskIndex].done = !tasks[taskIndex].done;
         render();
     }
+    
 
     const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove")
@@ -47,7 +48,7 @@
                 <li
                       class="list__item${task.done ? " list__item--done" : " list__item--remove"}"                     
                     >
-                    <button class="list__button list__button--done js-done">✓</button>    
+                    <button class="list__button list__button--done js-done"><span class="list__button--span">✓</span></button>    
                       ${task.content}
                     <button class="list__button list__button--remove js-remove">🗑</button>    
                 </li>
@@ -59,6 +60,7 @@
         
         bindEvents();
     };
+    
 
     const focusInput = (newTask) => {
         newTask.value = "";
