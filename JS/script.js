@@ -66,8 +66,8 @@
 
         for (const task of tasks) {
             sectionButtons += `
-            <button>Ukryj ukończone</button>
-            <button>Ukończ wszystkie</button>
+            <button class="section__buttons">Ukryj ukończone</button>
+            <button class="section__buttons">Ukończ wszystkie</button>
             `
         }
 

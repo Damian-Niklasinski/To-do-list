@@ -57,6 +57,11 @@ section {
     padding: 10px;
 }
 
+.section__listHeader {
+    display: flex;
+    align-items: center;
+}
+
 @media(max-width: 767px) {
     .section {
         width: 100%;
@@ -65,13 +70,17 @@ section {
     }
 }
 
+.section__header {
+    color: #000;
+    padding: 10px;
+}
+
+.section__buttons {
+    border: none;
+    font-size: 20px;
+}
+
 .section_List {
     margin-top: 0px;
     border-top: 1px solid hsla(0, 0%, 0%, 0.137);
-}
-
-.section__header {
-    color: #000;
-    margin: 0 auto;
-    padding: 10px;
 }
