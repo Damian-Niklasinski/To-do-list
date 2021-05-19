@@ -61,7 +61,18 @@
         document.querySelector(".js-tasks").innerHTML = htmlString;
     };
 
-    const renderButtons = () => { };
+    const renderButtons = () => {
+        let sectionButtons = "";
+
+        for (const task of tasks) {
+            sectionButtons += `
+            <button>Ukryj ukończone</button>
+            <button>Ukończ wszystkie</button>
+            `
+        }
+
+        document.querySelector(".js-sectionButtons").innerHTML = sectionButtons;
+    };
 
     const bindButtonsEvents = () => {
 
