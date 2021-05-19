@@ -24,15 +24,17 @@
 
 .list__button--spanVisible {
     visibility: visible;
-
+    color: #fff;
 }
 
 .list__button--done {
-    background-color: rgba(0, 255, 0, 0.37);
+    background-color: hsl(120, 61%, 30%);
+    padding: 3px;
 }
 
 .list__button--remove {
-    background-color: rgba(255, 0, 0, 0.479);
+    background-color: hsl(0, 100%, 40%);
+    padding: 3px;
 }
 
 .list__button--done:hover{

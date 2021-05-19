@@ -19,7 +19,7 @@ form {
     width: 100%;
     max-width: 1024px;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 13px;
     border: 1px solid hsla(0, 0%, 0%, 0.137);
 }
 
@@ -33,9 +33,9 @@ form {
 .form__button {
     color: #fff;
     flex-basis: 200px;
-    background-color: rgba(2, 93, 129, 0.692);
-    border: 1px solid rgba(2, 93, 129, 0.692);
-    padding: 10px;
+    background-color: hsl(187, 44%, 42%);
+    border: none;
+    padding: 13px;
     cursor: pointer;
     margin-left: 25px;
 }
