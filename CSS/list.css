@@ -30,11 +30,17 @@
 .list__button--done {
     background-color: hsl(120, 61%, 30%);
     padding: 3px;
+    transition: 0.5s;
 }
 
 .list__button--remove {
-    background-color: hsl(0, 100%, 40%);
+    background-color: hsl(0, 100%, 30%);
     padding: 3px;
+    transition: 0.5s;
+}
+
+.list__item--hide {
+    display: none;
 }
 
 .list__button--done:hover{
@@ -42,7 +48,7 @@
 }
 
 .list__button--remove:hover {
-    background-color: rgba(255, 0, 0, 0.747);
+    background-color: hsl(0, 100%, 40%);
 }
 
 .list__span--done {
